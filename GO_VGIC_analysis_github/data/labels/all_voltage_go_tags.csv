@@ -1,0 +1,26 @@
+GO_ID,GO_Term,Ontology
+GO:0005244,voltage-gated monoatomic ion channel activity,mf
+GO:0005245,voltage-gated calcium channel activity,mf
+GO:0005247,voltage-gated chloride channel activity,mf
+GO:0005248,voltage-gated sodium channel activity,mf
+GO:0005249,voltage-gated potassium channel activity,mf
+GO:0008308,voltage-gated monoatomic anion channel activity,mf
+GO:0008331,high voltage-gated calcium channel activity,mf
+GO:0008332,low voltage-gated calcium channel activity,mf
+GO:0022832,voltage-gated channel activity,mf
+GO:0022843,voltage-gated monoatomic cation channel activity,mf
+GO:0030171,voltage-gated proton channel activity,mf
+GO:0086006,voltage-gated sodium channel activity involved in cardiac muscle cell action potential,mf
+GO:0086007,voltage-gated calcium channel activity involved in cardiac muscle cell action potential,mf
+GO:0086008,voltage-gated potassium channel activity involved in cardiac muscle cell action potential repolarization,mf
+GO:0086041,voltage-gated potassium channel activity involved in SA node cell action potential depolarization,mf
+GO:0086056,voltage-gated calcium channel activity involved in AV node cell action potential,mf
+GO:0086059,voltage-gated calcium channel activity involved SA node cell action potential,mf
+GO:0086060,voltage-gated sodium channel activity involved in AV node cell action potential,mf
+GO:0086061,voltage-gated sodium channel activity involved in bundle of His cell action potential,mf
+GO:0086062,voltage-gated sodium channel activity involved in Purkinje myocyte action potential,mf
+GO:0086063,voltage-gated sodium channel activity involved in SA node cell action potential,mf
+GO:0086087,voltage-gated potassium channel activity involved in bundle of His cell action potential repolarization,mf
+GO:0086089,voltage-gated potassium channel activity involved in atrial cardiac muscle cell action potential repolarization,mf
+GO:0086090,voltage-gated potassium channel activity involved in SA node cell action potential repolarization,mf
+GO:1902282,voltage-gated potassium channel activity involved in ventricular cardiac muscle cell action potential repolarization,mf

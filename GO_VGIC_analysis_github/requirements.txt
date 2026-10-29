@@ -1,0 +1,2 @@
+requests>=2.31
+# 运行 notebook 需要 jupyter；pandas 可选（汇总用）
