@@ -1,0 +1,27 @@
+# VGICs-pred — portable Conda base environment
+#
+# Purpose: Python runtime + external bioinformatics command-line tools.
+# Python package versions are managed ONLY in requirements.txt.
+#
+# Tested target from original environment: Linux (x86_64), Python 3.12.
+# The files below are a streamlined installation specification, not an
+# exact binary lockfile. Validate on a clean machine before archiving.
+#
+# Installation (run from the VGICs-pred repository root):
+#   conda env create -f environment.yml
+#   conda activate voltage_class
+#   python -m pip install -r requirements.txt
+#
+# If you do not need the BLAST/CD-HIT notebooks, you may remove the
+# 'blast' and 'cd-hit' entries from a local copy of this file.
+name: voltage_class
+
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - python=3.12
+  - pip
+  - blast
+  - cd-hit

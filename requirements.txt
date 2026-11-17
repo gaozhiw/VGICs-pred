@@ -1,0 +1,53 @@
+# VGICs-pred — Python packages used by the four main notebooks
+#
+# Install AFTER creating/activating the Conda environment:
+#   conda env create -f environment.yml
+#   conda activate voltage_class
+#   python -m pip install -r requirements.txt
+#
+# Keep Python, BLAST+ and CD-HIT in environment.yml; list Python
+# libraries here only. Versions below track the project's earlier
+# exported research environment, except JupyterLab (frontend).
+#
+# The saved model/scaler files must be evaluated using verified matching
+# preprocessing and model versions. This file is NOT a complete lockfile.
+#
+# Core deep learning and protein language models
+torch==2.5.1
+transformers==4.47.1
+sentencepiece==0.2.0
+huggingface-hub==0.27.0
+tokenizers==0.21.0
+safetensors==0.4.5
+
+# Data handling and scientific computation
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.14.1
+biopython==1.84
+tqdm==4.67.1
+
+# Classification, benchmarking and validation
+scikit-learn==1.6.1
+xgboost==3.1.2
+imbalanced-learn==0.14.1
+
+# Figures and exploratory analyses
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# Notebook support
+ipykernel==6.29.5
+jupyterlab>=4.3,<5
+
+# CUDA/CPU note:
+# pip will resolve PyTorch's platform-specific dependencies automatically.
+# To explicitly choose a CPU-only or CUDA-specific PyTorch wheel, first
+# install torch==2.5.1 from the appropriate official PyTorch wheel index,
+# then run this requirements file. The existing torch version is retained.
+#
+# Removed from the main-notebook installation because they are not
+# directly imported there: tensorflow/tf-keras, torchtext, torchaudio,
+# torchvision, esm/fair-esm, biotite, SHAP, Flask, NLTK, and numerous
+# pip-freeze transitive dependencies. Supplementary folders can have
+# separate requirements if their scripts need any of these.
