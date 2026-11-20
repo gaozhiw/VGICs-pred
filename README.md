@@ -310,17 +310,3 @@ The source code in this repository is made available under the terms of the [MIT
 
 For questions, suspected bugs, and reproducibility issues, use the repository's [GitHub Issues](https://github.com/gaozhiw/VGICs-pred/issues) page. When reporting an issue, include your operating system, Python/PyTorch versions, the notebook section, the relevant input format, and the full error message. Avoid sharing unpublished or sensitive sequence data in public issues.
 
----
-
-### Maintainer checklist — complete before the next archived release
-
-This section is intentionally retained until the manuscript-matched version is verified.
-
-- [ ] Confirm a clean installation and align `environment.yml` with notebook kernel instructions.
-- [ ] Verify that all five **inference** model/scaler pairs are available and correspond to the accepted study.
-- [ ] Fix the missing-model behavior in `04_unreviewed_sequence_prediction.ipynb`.
-- [ ] Confirm independent test-set handling and the use of validation data for model selection.
-- [ ] Check the released data and scripts against the revised paper, including DeepGOPlus/NetGO4.0 comparisons.
-- [ ] Provide a small verified FASTA input and expected output for a smoke test.
-- [ ] Create a new versioned GitHub release and an associated Zenodo version containing the relevant source/test materials.
-- [ ] Replace the Zenodo placeholder with the verified **version-specific DOI** and add the final paper citation when assigned.
